@@ -1,0 +1,158 @@
+22:26:02 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+make: Nothing to be done for `all'.
+22:26:05 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+make: Nothing to be done for `all'.
+22:26:27 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for `all'.
+22:26:29 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+make: Nothing to be done for `all'.
+22:27:14 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+Building file: ../src/CSC450_CT1_mod1-1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CSC450_CT1_mod1-1.d" -MT"src/CSC450_CT1_mod1-1.o" -o "src/CSC450_CT1_mod1-1.o" "../src/CSC450_CT1_mod1-1.cpp"
+Finished building: ../src/CSC450_CT1_mod1-1.cpp
+ 
+Building file: ../src/CSC450_CT1_mod1-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CSC450_CT1_mod1-2.d" -MT"src/CSC450_CT1_mod1-2.o" -o "src/CSC450_CT1_mod1-2.o" "../src/CSC450_CT1_mod1-2.cpp"
+Finished building: ../src/CSC450_CT1_mod1-2.cpp
+ 
+Building file: ../src/Module1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Module1.d" -MT"src/Module1.o" -o "src/Module1.o" "../src/Module1.cpp"
+Finished building: ../src/Module1.cpp
+ 
+Building target: Module1
+Invoking: MacOS X C++ Linker
+g++  -o "Module1"  ./src/CSC450_CT1_mod1-1.o ./src/CSC450_CT1_mod1-2.o ./src/Module1.o   
+duplicate symbol '_main' in:
+    /Users/hoyeolkim/Documents/eclipse-cpp-workspace/Module1/Debug/src/CSC450_CT1_mod1-2.o
+    /Users/hoyeolkim/Documents/eclipse-cpp-workspace/Module1/Debug/src/CSC450_CT1_mod1-1.o
+    /Users/hoyeolkim/Documents/eclipse-cpp-workspace/Module1/Debug/src/Module1.o
+ld: 1 duplicate symbols
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Module1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:27:34 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+Building target: Module1
+Invoking: MacOS X C++ Linker
+g++  -o "Module1"  ./src/CSC450_CT1_mod1-1.o ./src/CSC450_CT1_mod1-2.o ./src/Module1.o   
+duplicate symbol '_main' in:
+    /Users/hoyeolkim/Documents/eclipse-cpp-workspace/Module1/Debug/src/Module1.o
+    /Users/hoyeolkim/Documents/eclipse-cpp-workspace/Module1/Debug/src/CSC450_CT1_mod1-1.o
+    /Users/hoyeolkim/Documents/eclipse-cpp-workspace/Module1/Debug/src/CSC450_CT1_mod1-2.o
+ld: 1 duplicate symbols
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Module1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:28:59 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+Building file: ../src/Module1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Module1.d" -MT"src/Module1.o" -o "src/Module1.o" "../src/Module1.cpp"
+Finished building: ../src/Module1.cpp
+ 
+Building target: Module1
+Invoking: MacOS X C++ Linker
+g++  -o "Module1"  ./src/Module1.o   
+Finished building target: Module1
+ 
+22:29:03 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+make: Nothing to be done for `all'.
+12:13:25 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for `all'.
+14:52:30 **** Build of configuration Debug for project CT1 ****
+make all 
+Building file: ../src/CT1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT1.d" -MT"src/CT1.o" -o "src/CT1.o" "../src/CT1.cpp"
+Finished building: ../src/CT1.cpp
+ 
+Building target: CT1
+Invoking: MacOS X C++ Linker
+g++  -o "CT1"  ./src/CT1.o   
+Finished building target: CT1
+ 
+14:52:30 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for `all'.
+14:52:35 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+make: Nothing to be done for `all'.
+14:53:06 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+make: Nothing to be done for `all'.
+14:58:53 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+Building file: ../src/CT1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT1.d" -MT"src/CT1.o" -o "src/CT1.o" "../src/CT1.cpp"
+Finished building: ../src/CT1.cpp
+ 
+Building target: CT1
+Invoking: MacOS X C++ Linker
+g++  -o "CT1"  ./src/CT1.o   
+Finished building target: CT1
+ 
+15:02:14 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+Building file: ../src/CT1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT1.d" -MT"src/CT1.o" -o "src/CT1.o" "../src/CT1.cpp"
+Finished building: ../src/CT1.cpp
+ 
+Building target: CT1
+Invoking: MacOS X C++ Linker
+g++  -o "CT1"  ./src/CT1.o   
+Finished building target: CT1
+ 
+15:03:07 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+Building file: ../src/CT1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT1.d" -MT"src/CT1.o" -o "src/CT1.o" "../src/CT1.cpp"
+Finished building: ../src/CT1.cpp
+ 
+Building target: CT1
+Invoking: MacOS X C++ Linker
+g++  -o "CT1"  ./src/CT1.o   
+Finished building target: CT1
+ 
+15:04:38 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+Building file: ../src/CT1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT1.d" -MT"src/CT1.o" -o "src/CT1.o" "../src/CT1.cpp"
+Finished building: ../src/CT1.cpp
+ 
+Building target: CT1
+Invoking: MacOS X C++ Linker
+g++  -o "CT1"  ./src/CT1.o   
+Finished building target: CT1
+ 
+15:17:03 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+make: Nothing to be done for `all'.
+19:06:34 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: MacOS X C++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+17:25:21 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+make: Nothing to be done for `all'.

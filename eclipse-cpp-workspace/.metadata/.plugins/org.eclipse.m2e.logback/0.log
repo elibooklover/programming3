@@ -1,0 +1,15 @@
+2023-12-08 21:42:42,953 [Worker-27: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-08 21:56:54,682 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-09 12:13:11,757 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 21.0.1+12-LTS
+2023-12-09 12:13:11,783 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@62c84b58{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@5df0e491{STARTED}}
+2023-12-09 12:13:11,784 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2023-12-09 12:13:11,792 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4dfead85{HTTP/1.1, (http/1.1)}{127.0.0.1:61351}
+2023-12-09 12:13:11,799 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@1ded8d70{STARTING}[12.0.3,sto=0] @55332ms
+2023-12-09 12:13:11,980 [qtp374420061-142] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2023-12-09 12:13:12,211 [qtp374420061-142] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2023-12-09 12:13:24,216 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-09 12:13:38,914 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@1ded8d70{STOPPING}[12.0.3,sto=0]
+2023-12-09 12:13:38,917 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4dfead85{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-12-09 14:51:31,764 [Worker-23: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-11 19:06:34,142 [Worker-28: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-13 17:25:20,727 [Worker-15: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

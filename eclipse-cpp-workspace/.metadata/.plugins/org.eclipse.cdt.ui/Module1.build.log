@@ -1,0 +1,6 @@
+22:29:03 **** Incremental Build of configuration Debug for project Module1 ****
+make all 
+make: Nothing to be done for `all'.
+
+22:29:03 Build Finished. 0 errors, 0 warnings. (took 90ms)
+
