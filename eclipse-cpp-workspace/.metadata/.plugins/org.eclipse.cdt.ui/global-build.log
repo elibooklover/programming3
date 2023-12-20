@@ -156,3 +156,408 @@ Finished building target: HelloWorld
 17:25:21 **** Incremental Build of configuration Debug for project CT1 ****
 make all 
 make: Nothing to be done for `all'.
+17:39:17 **** Build of configuration Debug for project CT1 ****
+make all 
+make: *** No rule to make target `src/CSC450_CT1_mod1-1.o', needed by `CT1'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+09:45:57 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+Building file: ../src/CT1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT1.d" -MT"src/CT1.o" -o "src/CT1.o" "../src/CT1.cpp"
+Finished building: ../src/CT1.cpp
+ 
+Building target: CT1
+Invoking: MacOS X C++ Linker
+g++  -o "CT1"  ./src/CT1.o   
+Finished building target: CT1
+ 
+09:50:03 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+make: Nothing to be done for `all'.
+09:50:03 **** Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+09:50:03 **** Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for `all'.
+09:50:05 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+make: Nothing to be done for `all'.
+09:50:12 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+09:54:16 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+../src/CT2.cpp:26:9: error: no matching function for call to 'strcat'
+        strcat(firstString + secondString);
+        ^~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:75:7: note: candidate function not viable: requires 2 arguments, but 1 was provided
+char    *strcat(char *__s1, const char *__s2);
+         ^
+../src/CT2.cpp:29:49: error: use of undeclared identifier 'stringl'
+        std::cout << "Concatenated String: " << stringl << "\n" << std::endl;
+                                                ^
+2 errors generated.
+make: *** [src/CT2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:55:21 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+../src/CT2.cpp:13:1: error: 'main' must return 'int'
+void main () {
+^~~~
+int
+../src/CT2.cpp:16:16: error: expected ']'
+        char string3[8);
+                      ^
+../src/CT2.cpp:16:14: note: to match this '['
+        char string3[8);
+                    ^
+../src/CT2.cpp:16:16: error: extraneous ')' before ';'
+        char string3[8);
+                      ^
+../src/CT2.cpp:21:41: error: expected ';' after expression
+        cout  <<"Copy of String 1: "  <<string3  endl;
+                                               ^
+                                               ;
+../src/CT2.cpp:21:43: error: reference to overloaded function could not be resolved; did you mean to call it?
+        cout  <<"Copy of String 1: "  <<string3  endl;
+                                                 ^~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1036:1: note: possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+../src/CT2.cpp:24:39: error: expected ';' after expression
+        cout  <<"Concatenate Two Strings:<< "  stringl <<endl;
+                                             ^
+                                             ;
+../src/CT2.cpp:24:41: error: use of undeclared identifier 'stringl'
+        cout  <<"Concatenate Two Strings:<< "  stringl <<endl;
+                                               ^
+7 errors generated.
+make: *** [src/CT2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:56:10 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+../src/CT2.cpp:17:9: warning: unused variable 'len' [-Wunused-variable]
+    int len;
+        ^
+1 warning generated.
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+09:57:36 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+../src/CT2.cpp:42:9: error: no matching function for call to 'strcat'
+        strcat(firstString + secondString);
+        ^~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:75:7: note: candidate function not viable: requires 2 arguments, but 1 was provided
+char    *strcat(char *__s1, const char *__s2);
+         ^
+1 error generated.
+make: *** [src/CT2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:58:02 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+../src/CT2.cpp:42:9: error: no matching function for call to 'strcat'
+        strcat(firstString, secondString);
+        ^~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:75:7: note: candidate function not viable: no known conversion from 'std::string' (aka 'basic_string<char>') to 'char *' for 1st argument
+char    *strcat(char *__s1, const char *__s2);
+         ^
+1 error generated.
+make: *** [src/CT2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:04:21 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+10:46:56 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+../src/CT2.cpp:13:26: error: unexpected character <U+2019>
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                ^
+../src/CT2.cpp:13:30: error: character <U+2019> not allowed in an identifier
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                  ^
+../src/CT2.cpp:13:29: error: use of undeclared identifier 'e’'
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                 ^
+../src/CT2.cpp:13:35: error: unexpected character <U+2018>
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                     ^
+../src/CT2.cpp:13:39: error: character <U+2019> not allowed in an identifier
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                       ^
+../src/CT2.cpp:13:38: error: use of undeclared identifier 'I’'
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                      ^
+../src/CT2.cpp:13:44: error: unexpected character <U+2018>
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                          ^
+../src/CT2.cpp:13:48: error: character <U+2019> not allowed in an identifier
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                            ^
+../src/CT2.cpp:13:47: error: use of undeclared identifier 'l’'
+        char myhello[6] = {'H', ’e’, ‘I’, ‘l’, 'o', '\0'};
+                                           ^
+9 errors generated.
+make: *** [src/CT2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:47:33 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+10:48:30 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+../src/CT2.cpp:33:27: error: no viable conversion from 'std::string' (aka 'basic_string<char>') to 'char'
+        char result[2] = {firstInput, secondInput};
+                          ^~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:1010:5: note: candidate function
+    operator __self_view() const _NOEXCEPT { return __self_view(data(), size()); }
+    ^
+../src/CT2.cpp:33:39: error: no viable conversion from 'std::string' (aka 'basic_string<char>') to 'char'
+        char result[2] = {firstInput, secondInput};
+                                      ^~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:1010:5: note: candidate function
+    operator __self_view() const _NOEXCEPT { return __self_view(data(), size()); }
+    ^
+2 errors generated.
+make: *** [src/CT2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:48:52 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+10:50:23 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+10:52:37 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+11:00:29 **** Incremental Build of configuration Debug for project CT1 ****
+make all 
+make: Nothing to be done for `all'.
+11:00:29 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+11:00:29 **** Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+11:00:30 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for `all'.
+11:00:33 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+make: Nothing to be done for `all'.
+11:00:47 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+make: Nothing to be done for `all'.
+11:01:26 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+../src/Discussion.cpp:14:2: warning: 'strcpy' will always overflow; destination buffer has size 10, but the source string has length 46 (including NUL byte) [-Wfortify-source]
+        strcpy(buffer, "This is a long string that may cause overflow");
+        ^
+1 warning generated.
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+11:01:33 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+make: Nothing to be done for `all'.
+11:01:35 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+make: Nothing to be done for `all'.
+11:02:35 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+11:03:52 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+11:05:22 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+11:05:37 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+make: Nothing to be done for `all'.
+11:05:44 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+make: Nothing to be done for `all'.
+21:12:49 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+21:13:09 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+17:04:52 **** Build of configuration Debug for project CT2 ****
+make all 
+Building file: ../src/CT2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CT2.d" -MT"src/CT2.o" -o "src/CT2.o" "../src/CT2.cpp"
+Finished building: ../src/CT2.cpp
+ 
+Building target: CT2
+Invoking: MacOS X C++ Linker
+g++  -o "CT2"  ./src/CT2.o   
+Finished building target: CT2
+ 
+17:05:57 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+make: Nothing to be done for `all'.
+17:06:33 **** Incremental Build of configuration Debug for project CT2 ****
+make all 
+make: Nothing to be done for `all'.

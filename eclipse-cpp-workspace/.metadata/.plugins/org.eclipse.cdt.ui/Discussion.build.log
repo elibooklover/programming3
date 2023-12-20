@@ -1,0 +1,15 @@
+21:13:09 **** Incremental Build of configuration Debug for project Discussion ****
+make all 
+Building file: ../src/Discussion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Discussion.d" -MT"src/Discussion.o" -o "src/Discussion.o" "../src/Discussion.cpp"
+Finished building: ../src/Discussion.cpp
+ 
+Building target: Discussion
+Invoking: MacOS X C++ Linker
+g++  -o "Discussion"  ./src/Discussion.o   
+Finished building target: Discussion
+ 
+
+21:13:09 Build Finished. 0 errors, 0 warnings. (took 351ms)
+

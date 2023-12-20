@@ -1,0 +1,40 @@
+//============================================================================
+// Name        : CT2.cpp
+// Author      : Hoyeol
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+
+//int main() {
+//    char myhello[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+//
+//    std::cout << "Simple Message: " << myhello << std::endl;
+//    return 0;
+//}
+
+int main() {
+    for (int i = 0; i < 3; ++i) {
+        std::string firstInput, secondInput;
+
+        // First input
+        std::cout << "Enter the first word: ";
+        std::getline(std::cin, firstInput);
+
+        // Second input
+        std::cout << "Enter the second word: ";
+        std::getline(std::cin, secondInput);
+
+        // Concatenate the two words
+        // std::string result = firstInput + secondInput;
+        char result[2] = {firstInput, secondInput};
+
+        // Print the output
+        std::cout << "Output: " << result << "\n"<< std::endl;
+    }
+
+    return 0;
+}

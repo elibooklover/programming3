@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : Discussion.cpp
+// Author      : Hoyeol
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+//#include <iostream>
+//#include <cstring>
+
+#include <iostream>
+
+int main() {
+    std::string user_input;
+
+    // Prompt the user for input
+    std::cout << "Enter your name: ";
+    std::getline(std::cin, user_input);
+
+    // Vulnerable code using user input in format string
+    printf("Hello, %s\n", user_input.c_str());
+
+    return 0;
+}
+
+//	const int maxInputLength = 5;
+//	char input[maxInputLength];
+//
+//	std::cout << "Enter the first word: ";
+//	std::cin.getline(input, maxInputLength);
+//
+//	std::cout << "Output: " << input << "\n" << std::endl;
+
+

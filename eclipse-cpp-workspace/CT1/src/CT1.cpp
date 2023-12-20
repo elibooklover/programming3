@@ -22,7 +22,7 @@ int main() {
 	std::cout << "Enter the zip code: " <<endl;
 	std::getline(std::cin, zipCode);
 
-	// Print the input
+	// Display the input
 	std::cout << "\n" << "Name: " << lastName << ", " << firstName << "\n";
 	std::cout << "Address: " << streetAddress << ", " << city << " " << zipCode;
 

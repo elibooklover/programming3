@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : Discussion.cpp
+// Author      : Hoyeol
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstring>
+
+int main() {
+    const char* inputString = "This is a long string that may cause overflow";
+    const int bufferSize = 100; // Adjust the buffer size based on your needs
+    char buffer[bufferSize];
+
+    // Copy the string to the buffer, ensuring no overflow
+    strncpy(buffer, inputString, bufferSize - 1);
+    buffer[bufferSize - 1] = '\0'; // Ensure null-termination
+
+    // Print the result
+    std::cout << "Buffer: " << buffer << std::endl;
+
+    return 0;
+}
+//	const int maxInputLength = 5;
+//	char input[maxInputLength];
+//
+//	std::cout << "Enter the first word: ";
+//	std::cin.getline(input, maxInputLength);
+//
+//	std::cout << "Output: " << input << "\n" << std::endl;
+
+

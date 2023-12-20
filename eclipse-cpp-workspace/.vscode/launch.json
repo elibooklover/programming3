@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/hoyeolkim/Documents/eclipse-cpp-workspace",
-      "program": "/Users/hoyeolkim/Documents/eclipse-cpp-workspace/build/Debug/outDebug"
+      "cwd": "/Users/hoyeolkim/Documents/eclipse-cpp-workspace/CT1-Fix",
+      "program": "/Users/hoyeolkim/Documents/eclipse-cpp-workspace/CT1-Fix/build/Debug/outDebug"
     }
   ]
 }

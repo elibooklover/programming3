@@ -1,0 +1,60 @@
+//============================================================================
+// Name        : CT2.cpp
+// Author      : Hoyeol
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+//#include <iostream>
+//using namespace std;
+
+#include <iostream>
+#include <cstring>
+
+int main() {
+    for (int i = 0; i < 3; ++i) {
+        const int maxInputLength = 50; // Adjust the maximum length as needed
+        char firstInput[maxInputLength];
+        char secondInput[maxInputLength];
+
+        // First input
+        std::cout << "Enter the first word: ";
+        std::cin.getline(firstInput, maxInputLength);
+
+        // Second input
+        std::cout << "Enter the second word: ";
+        std::cin.getline(secondInput, maxInputLength);
+
+        // Concatenate the two words with a space in between
+        char result[maxInputLength * 2];
+        strcpy(result, firstInput);
+        strcat(result, " ");
+        strcat(result, secondInput);
+
+        // Print the output
+        std::cout << "Output: " << result << "\n" << std::endl;
+    }
+
+    return 0;
+}
+
+//int main() {
+//    for (int i = 0; i < 3; ++i) {
+//        std::string firstInput, secondInput;
+//
+//        // First input
+//        std::cout << "Enter the first word: ";
+//        std::getline(std::cin, firstInput);
+//
+//        // Second input
+//        std::cout << "Enter the second word: ";
+//        std::getline(std::cin, secondInput);
+//
+//        // Concatenate the two words
+//        std::string result = firstInput + secondInput;
+//
+//        // Print the output
+//        std::cout << "Output: " << result << "\n"<< std::endl;
+//    }
+//
+//    return 0;
+//}

@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : CT2.cpp
+// Author      : Hoyeol
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main() {
+    for (int i = 0; i < 3; ++i) {
+        std::string firstString, secondString;
+
+        // Taking input for the first string
+        std::cout << "Enter the first string: ";
+        std::getline(std::cin, firstString);
+
+        // Taking input for the second string
+        std::cout << "Enter the second string: ";
+        std::getline(std::cin, secondString);
+
+        // Concatenating the two strings
+        strcat(firstString + secondString);
+
+        // Printing the output
+        std::cout << "Concatenated String: " << stringl << "\n" << std::endl;
+    }
+}
