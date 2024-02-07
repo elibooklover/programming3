@@ -1,0 +1,23 @@
+package module8;
+
+public class NullPointerExceptionExample {
+    public static void main (String[] args) {
+        // Initializing String variable with null value
+        String ptr = null;
+//        String ptr = "a";
+ 
+        // Checking if ptr.equals null or works fine.
+        try
+        {
+            // This line of code throws NullPointerException because ptr is null
+            if (ptr.equals("a"))
+                System.out.print("Same");
+            else
+                System.out.print("Not Same");
+        }
+        catch(NullPointerException e)
+        {
+            System.out.print("NullPointerException Caught: " + e.getMessage());
+        }
+    }
+}
